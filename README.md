@@ -1,0 +1,2 @@
+# noticiaAPI
+exercicioAPI
