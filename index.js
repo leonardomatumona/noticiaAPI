@@ -8,7 +8,7 @@ function inicilizarPagina() {
             const urlImage = noticia.urlToImage
             const titulo = noticia.title
             const descricao = noticia.description
-            $("section#news").append('<article class="card"><img class="card__image"src="' + urlImage +'"alt=""><h2>'+ titulo +'</h2><p>'+ descricao +'</p></article')
+            $("section#news").append('<article class="card"><img class="card__image"src="' + urlImage +'"alt=""><h2>'+ titulo +'</h2><p>' + descricao + '</p></article')
 
         }
     })
